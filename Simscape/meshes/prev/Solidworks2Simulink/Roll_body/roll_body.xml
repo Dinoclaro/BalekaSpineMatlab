@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="04/30/25||15:51:05" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="roll_body" uid="roll_body" version="193">
+<AssemblyFile name="roll_body.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="caster_wheel_assem-1" uid="caster_wheel_assem-1" entityUid="caster_wheel_assem">
+<Transform>
+<Rotation>-2.3592239273284552e-16 2.5905203907920474e-16 1 -1 0 -2.3592239273284532e-16 0 -1 2.5905203907920469e-16</Rotation>
+<Translation>2.9772521970584659e-12 0.056499999997372423 0.31799999999999995</Translation>
+</Transform>
+<Instance name="boom_interface-1" uid="boom_interface-1" entityUid="boom_interface*:*Default">
+<Transform>
+<Rotation>-1.2246467991473552e-16 1 0 0 0 0.99999999999999967 1 1.2246467991473512e-16 0</Rotation>
+<Translation>1.1236150898596975e-13 0.21750000000023545 0</Translation>
+</Transform>
+</Instance>
+<Instance name="aluminium_support_pole-1" uid="aluminium_support_pole-1" entityUid="aluminium_support_pole*:*Default">
+<Transform>
+<Rotation>0.84965105466326063 0 0.52734531884677716 0 1 0 -0.52734531884677716 0 0.84965105466326063</Rotation>
+<Translation>-1.2119472092564365e-13 0.11500000000011784 0</Translation>
+</Transform>
+</Instance>
+<Instance name="tente agila 50 swivel body-1" uid="tente agila 50 swivel body-1" grounded="true" entityUid="tente agila 50 swivel body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="tente agila 50 swivel wheel-1" uid="tente agila 50 swivel wheel-1" entityUid="tente agila 50 swivel wheel*:*Default">
+<Transform>
+<Rotation>-0.034051317533064479 0.99942008573685492 -1.5407027750628739e-12 -0.99942008573685492 -0.034051317533064479 1.6060226667026222e-16 -5.2302450286614399e-14 1.5398147682671267e-12 1</Rotation>
+<Translation>0.069825766711231557 -0.020512755798609617 0.00034999999790445133</Translation>
+</Transform>
+</Instance>
+<Instance name="caster_wheel_plate-1" uid="caster_wheel_plate-1" entityUid="caster_wheel_plate*:*Default">
+<Transform>
+<Rotation>1.2246467991473552e-16 0 1 0 1 0 -1 0 1.2246467991473512e-16</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="skf_bearing_6002-2rsh_2-1" uid="skf_bearing_6002-2rsh_2-1" entityUid="skf_bearing_6002-2rsh_2" rigid="true">
+<Transform>
+<Rotation>-1.0373397528264679e-14 0.90187246606094118 0.43200237842071693 -1 -9.3047759364234739e-15 -4.5871884214674941e-15 -1.1737359874828905e-16 -0.43200237842071693 0.90187246606094118</Rotation>
+<Translation>-2.6371719408411231e-12 0.096999999997364875 0.014999999999999993</Translation>
+</Transform>
+<Instance name="skf_bearing_6002-2rsh_2_05-1" uid="skf_bearing_6002-2rsh_2_05-1" grounded="true" entityUid="skf_bearing_6002-2rsh_2_05*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6002-2rsh_2_04-1" uid="skf_bearing_6002-2rsh_2_04-1" grounded="true" entityUid="skf_bearing_6002-2rsh_2_04*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6002-2rsh_2_01-1" uid="skf_bearing_6002-2rsh_2_01-1" grounded="true" entityUid="skf_bearing_6002-2rsh_2_01*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6002-2rsh_2_03-1" uid="skf_bearing_6002-2rsh_2_03-1" grounded="true" entityUid="skf_bearing_6002-2rsh_2_03*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6002-2rsh_2_02-1" uid="skf_bearing_6002-2rsh_2_02-1" grounded="true" entityUid="skf_bearing_6002-2rsh_2_02*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="skf_bearing_6003-2rsh_2-1" uid="skf_bearing_6003-2rsh_2-1" entityUid="skf_bearing_6003-2rsh_2" rigid="true">
+<Transform>
+<Rotation>-1.0505983086624727e-14 -0.96628227584827997 0.25748507409453614 1 -1.0212189146511555e-14 2.4783017772368042e-15 2.3474719750972989e-16 0.25748507409453614 0.96628227584827997</Rotation>
+<Translation>2.6299047744496751e-12 0.11599999999736275 0.014999999999999986</Translation>
+</Transform>
+<Instance name="skf_bearing_6003-2rsh_2_01-1" uid="skf_bearing_6003-2rsh_2_01-1" grounded="true" entityUid="skf_bearing_6003-2rsh_2_01*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6003-2rsh_2_03-1" uid="skf_bearing_6003-2rsh_2_03-1" grounded="true" entityUid="skf_bearing_6003-2rsh_2_03*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6003-2rsh_2_04-1" uid="skf_bearing_6003-2rsh_2_04-1" grounded="true" entityUid="skf_bearing_6003-2rsh_2_04*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6003-2rsh_2_05-1" uid="skf_bearing_6003-2rsh_2_05-1" grounded="true" entityUid="skf_bearing_6003-2rsh_2_05*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6003-2rsh_2_02-1" uid="skf_bearing_6003-2rsh_2_02-1" grounded="true" entityUid="skf_bearing_6003-2rsh_2_02*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="jockey_plate-1" uid="jockey_plate-1" entityUid="jockey_plate*:*Default">
+<Transform>
+<Rotation>0 1.6653345369377348e-16 1.0000000000000002 -1 0 0 0 -1.0000000000000002 1.6653345369377348e-16</Rotation>
+<Translation>2.8685907815795267e-12 0.056499999997362285 0.069999999999999979</Translation>
+</Transform>
+</Instance>
+<Instance name="roll_u_plate-1" uid="roll_u_plate-1" grounded="true" entityUid="roll_u_plate*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="roll_plate_new-1" uid="roll_plate_new-1" entityUid="roll_plate_new*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.8743812885423381e-12 0.12599999999736239 0.014999999999999989</Translation>
+</Transform>
+</Instance>
+<Instance name="roll_support_plate-1" uid="roll_support_plate-1" entityUid="roll_support_plate*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>-2.8076291291867506e-12 0.090999999997364869 0.014999999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="roll_bearing_seat_6002-1" uid="roll_bearing_seat_6002-1" entityUid="roll_bearing_seat_6002*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-2.8105174990316278e-12 0.084999999997364864 0.014999999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="roll_bearing_seat_6003-1" uid="roll_bearing_seat_6003-1" entityUid="roll_bearing_seat_6003*:*Default">
+<Transform>
+<Rotation>-0.99999999999999989 1.0436096431476471e-14 0 -1.043609643147647e-14 -1 0 0 0 0.99999999999999989</Rotation>
+<Translation>2.6324048496594116e-12 0.12899999999736239 0.014999999999999993</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_u_plate-1</Uid>
+</InstancePath>
+<Position>-0.062999999997363124 0.12599999999736172 -0.032000000000000008</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_plate_new-1</Uid>
+</InstancePath>
+<Position>-0.063 -0.0030000000000000027 -0.047</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_u_plate-1</Uid>
+</InstancePath>
+<Position>-0.062999999997361819 -6.5580874061862091e-16 0</Position>
+<Axis>-1 -1.0408340855860844e-14 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_plate_new-1</Uid>
+</InstancePath>
+<Position>-0.063 -0.0030000000000000027 -0.047</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_u_plate-1</Uid>
+</InstancePath>
+<Position>-0.062999999997363096 0.12299999999736172 -0.032000000000000008</Position>
+<Axis>-1.0436096431476471e-14 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_plate_new-1</Uid>
+</InstancePath>
+<Position>0 -0.0030000000000000027 0.005000000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_u_plate-1</Uid>
+</InstancePath>
+<Position>0.062999999997362721 0.087999999997364214 -0.030000000000000006</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_support_plate-1</Uid>
+</InstancePath>
+<Position>0.059999999999999998 0.044999999999999998 -0.0030000000000000027</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_u_plate-1</Uid>
+</InstancePath>
+<Position>0.062999999997362763 0.090999999997364217 -0.020000000000000004</Position>
+<Axis>-1.0436096431476471e-14 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_support_plate-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_u_plate-1</Uid>
+</InstancePath>
+<Position>0.059999999997361816 -6.2450045132419149e-16 0</Position>
+<Axis>-1 1.0408340855860844e-14 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_support_plate-1</Uid>
+</InstancePath>
+<Position>0.059999999999999998 0.048000000000000001 -0.0030000000000000027</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>roll_plate_new-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>roll_bearing_seat_6003-1</Uid>
+</InstancePath>
+<Position>0 0.012999999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>roll_plate_new-1</Uid>
+</InstancePath>
+<Position>0 0 -0.028000000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>roll_bearing_seat_6003-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 -0.027999999999999994</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_plate_new-1</Uid>
+</InstancePath>
+<Position>0 0 0.005000000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_bearing_seat_6003-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>roll_support_plate-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0030000000000000027</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>roll_bearing_seat_6002-1</Uid>
+</InstancePath>
+<Position>0 0.011999999999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>roll_support_plate-1</Uid>
+</InstancePath>
+<Position>0 0.024 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>roll_bearing_seat_6002-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 -0.024</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_support_plate-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_bearing_seat_6002-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>roll_plate_new-1</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 0 0.038000000000000006</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>jockey_plate-1</Uid>
+</InstancePath>
+<Position>-0.066500000000000087 0.016999999999999994 -0.020000000000000004</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>roll_plate_new-1</Uid>
+</InstancePath>
+<Position>0.019999999999999997 0 0.038000000000000006</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>jockey_plate-1</Uid>
+</InstancePath>
+<Position>-0.066500000000000087 0.016999999999999987 0.020000000000000007</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_plate_new-1</Uid>
+</InstancePath>
+<Position>0 -0.0030000000000000027 0.005000000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>jockey_plate-1</Uid>
+</InstancePath>
+<Position>-0.066500000000000017 -2.4980018054066022e-16 0</Position>
+<Axis>-1 -3.7848512203130355e-15 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>roll_bearing_seat_6003-1</Uid>
+</InstancePath>
+<Position>0 0.012999999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>skf_bearing_6003-2rsh_2-1</Uid>
+<Uid>skf_bearing_6003-2rsh_2_01-1</Uid>
+</InstancePath>
+<Position>0.0050000000000000044 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_bearing_seat_6003-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>skf_bearing_6003-2rsh_2-1</Uid>
+<Uid>skf_bearing_6003-2rsh_2_01-1</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0.016400000000000005 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>roll_bearing_seat_6002-1</Uid>
+</InstancePath>
+<Position>0 0.011999999999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>skf_bearing_6002-2rsh_2-1</Uid>
+<Uid>skf_bearing_6002-2rsh_2_01-1</Uid>
+</InstancePath>
+<Position>0.004500000000000004 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>roll_bearing_seat_6002-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>skf_bearing_6002-2rsh_2-1</Uid>
+<Uid>skf_bearing_6002-2rsh_2_01-1</Uid>
+</InstancePath>
+<Position>0.0089999999999999941 0.014899999999999997 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>jockey_plate-1</Uid>
+</InstancePath>
+<Position>0 -0.0030000000000000027 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>caster_wheel_assem-1</Uid>
+<Uid>boom_interface-1</Uid>
+</InstancePath>
+<Position>-0.037499999999999992 0.037499999999999992 0.027499999999999997</Position>
+<Axis>0 0 0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>jockey_plate-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000008 0 -0.020000000000000007</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>caster_wheel_assem-1</Uid>
+<Uid>boom_interface-1</Uid>
+</InstancePath>
+<Position>-0.020000000000000007 -0.025000000000000008 0.027499999999999997</Position>
+<Axis>1.8753767307857375e-16 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>jockey_plate-1</Uid>
+</InstancePath>
+<Position>0.025000000000000001 0 -0.020000000000000011</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>caster_wheel_assem-1</Uid>
+<Uid>boom_interface-1</Uid>
+</InstancePath>
+<Position>-0.020000000000000011 0.024999999999999994 0.027499999999999997</Position>
+<Axis>1.8753767307857372e-16 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="caster_wheel_assem" uid="caster_wheel_assem" version="190">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="caster_wheel_assem.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>tente agila 50 swivel body-1</Uid>
+</InstancePath>
+<Position>0.025000000000000001 -0.043999999999999997 -0.01865</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>tente agila 50 swivel wheel-1</Uid>
+</InstancePath>
+<Position>0.024999999999999998 -0.043999999999999997 -0.0099999999999999985</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tente agila 50 swivel body-1</Uid>
+</InstancePath>
+<Position>0.035000000000000003 -0.0155 0.011350000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tente agila 50 swivel wheel-1</Uid>
+</InstancePath>
+<Position>0.025000000000000001 -0.036599999999999994 0.010999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tente agila 50 swivel body-1</Uid>
+</InstancePath>
+<Position>-0.026495000000000001 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>caster_wheel_plate-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>caster_wheel_plate-1</Uid>
+</InstancePath>
+<Position>0 0.02 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>aluminium_support_pole-1</Uid>
+</InstancePath>
+<Position>0 0.11000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>caster_wheel_plate-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>aluminium_support_pole-1</Uid>
+</InstancePath>
+<Position>0 -0.11 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>aluminium_support_pole-1</Uid>
+</InstancePath>
+<Position>0 0.11000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>caster_wheel_assem</Uid>
+</InstancePath>
+<Position>0 0.14000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>aluminium_support_pole-1</Uid>
+</InstancePath>
+<Position>0 0.11000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>caster_wheel_assem</Uid>
+</InstancePath>
+<Position>0 0.155 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>caster_wheel_plate-1</Uid>
+</InstancePath>
+<Position>0.021499999999999998 0.0050000000000000001 0.021499999999999998</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>caster_wheel_assem</Uid>
+</InstancePath>
+<Position>0.021500000000000005 0.155 0.021500000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>aluminium_support_pole-1</Uid>
+</InstancePath>
+<Position>0 0.11000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>boom_interface-1</Uid>
+</InstancePath>
+<Position>0 0 -0.027500011999999963</Position>
+<Axis>0 0 0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>aluminium_support_pole-1</Uid>
+</InstancePath>
+<Position>0 0.11000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>boom_interface-1</Uid>
+</InstancePath>
+<Position>0 0 0.0075000000000000067</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>caster_wheel_plate-1</Uid>
+</InstancePath>
+<Position>-0.029999999999999999 0.0050000000000000001 0.029999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>boom_interface-1</Uid>
+</InstancePath>
+<Position>0 0.037499999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tente agila 50 swivel body-1</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0.0030000000000000001 0.0247899</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>caster_wheel_plate-1</Uid>
+</InstancePath>
+<Position>-0.029999999999999999 0.0050000000000000001 0.029999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tente agila 50 swivel body-1</Uid>
+</InstancePath>
+<Position>-0.0247899 0.0030000000000000001 0.029999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>caster_wheel_plate-1</Uid>
+</InstancePath>
+<Position>-0.029999999999999999 0.0050000000000000001 0.029999999999999999</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+<Assembly name="skf_bearing_6002-2rsh_2" uid="skf_bearing_6002-2rsh_2" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="skf_bearing_6002-2rsh_2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="skf_bearing_6003-2rsh_2" uid="skf_bearing_6003-2rsh_2" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="skf_bearing_6003-2rsh_2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="aluminium_support_pole" uid="aluminium_support_pole*:*Default" version="263">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="aluminium_support_pole.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.055728319382947589</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.00022887823946740929 8.2147025790426172e-06 0.00022887823946740929 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="aluminium_support_pole_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="boom_interface" uid="boom_interface*:*Default" version="361">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="boom_interface.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.25190769294423554</Mass>
+<CenterOfMass>5.8625247320571671e-09 8.603508017711109e-09 0.00056247468413897115</CenterOfMass>
+<Inertia>0.00018361850755939117 0.00017441134758114471 0.00023602067590917006 -8.0822247064382902e-11 -5.1103926103574911e-11 -1.7639088538126173e-11</Inertia>
+</MassProperties>
+<GeometryFile name="boom_interface_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="caster_wheel_plate" uid="caster_wheel_plate*:*Default" version="268">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="caster_wheel_plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.057336393005470367</Mass>
+<CenterOfMass>3.3885738830204501e-11 0.0044833112996214642 -1.2384422522365192e-10</CenterOfMass>
+<Inertia>1.5778700926171258e-05 2.903484831480465e-05 1.5709066889360558e-05 8.5799270684334491e-14 -5.5563302139914761e-15 -6.3200398512078644e-15</Inertia>
+</MassProperties>
+<GeometryFile name="caster_wheel_plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="jockey_plate" uid="jockey_plate*:*Default" version="418">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="jockey_plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.073436395001289095</Mass>
+<CenterOfMass>0.0032855945945178162 0.0063873226530617279 0</CenterOfMass>
+<Inertia>2.7532617352272385e-05 0.00016046189422772757 0.00015770517486438793 0 0 -1.7023495778646048e-05</Inertia>
+</MassProperties>
+<GeometryFile name="jockey_plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="roll_bearing_seat_6002" uid="roll_bearing_seat_6002*:*Default" version="400">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="roll_bearing_seat_6002.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.02366599445061034</Mass>
+<CenterOfMass>0 0.0035021186440677967 0</CenterOfMass>
+<Inertia>5.5488482854303019e-06 1.058857706371683e-05 5.5488482854303002e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="roll_bearing_seat_6002_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="roll_bearing_seat_6003" uid="roll_bearing_seat_6003*:*Default" version="411">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="roll_bearing_seat_6003.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.029964809181241524</Mass>
+<CenterOfMass>0 0.0035665132817402187 0</CenterOfMass>
+<Inertia>8.6169811661542577e-06 1.6495462149558518e-05 8.6169811661542611e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="roll_bearing_seat_6003_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="roll_plate_new" uid="roll_plate_new*:*Default" version="573">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="roll_plate_new.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.12663805037452958</Mass>
+<CenterOfMass>0 -0.0015000014826500453 -0.0054156476970434134</CenterOfMass>
+<Inertia>0.00011376362358778918 0.00044031586593599965 0.00032674219905241706 1.7600578442206414e-12 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="roll_plate_new_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="roll_support_plate" uid="roll_support_plate*:*Default" version="703">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="roll_support_plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.082541417027786307</Mass>
+<CenterOfMass>2.2198891805929665e-08 0.0053039814327363018 -0.00021832398244734917</CenterOfMass>
+<Inertia>5.6340446142888969e-05 0.00012537551279153897 0.00017957758182501727 -3.910085461134909e-07 -1.3682545636034253e-11 -7.4637205907927947e-12</Inertia>
+</MassProperties>
+<GeometryFile name="roll_support_plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="roll_u_plate" uid="roll_u_plate*:*Default" version="975">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="roll_u_plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.23711612620464576</Mass>
+<CenterOfMass>-8.1646538899718524e-09 0.052292496680102427 0.0042126887896717802</CenterOfMass>
+<Inertia>0.00061321198623429183 0.00089012221364424067 0.0012647256611662842 -4.2414267401582299e-05 1.0659012743662057e-11 1.8083015516291279e-10</Inertia>
+</MassProperties>
+<GeometryFile name="roll_u_plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6002-2rsh_2_01" uid="skf_bearing_6002-2rsh_2_01*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6002-2rsh_2_01.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0019001577023224046</Mass>
+<CenterOfMass>0.0044999999999999979 0 0</CenterOfMass>
+<Inertia>4.2077995388643404e-07 2.22856908008739e-07 2.2285690800873906e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6002-2rsh_2_01_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6002-2rsh_2_02" uid="skf_bearing_6002-2rsh_2_02*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6002-2rsh_2_02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0011970614783796477</Mass>
+<CenterOfMass>0.0044999999999999997 0 0</CenterOfMass>
+<Inertia>9.5131976529253542e-08 5.5278648977979948e-08 5.5278648977979974e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6002-2rsh_2_02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6002-2rsh_2_03" uid="skf_bearing_6002-2rsh_2_03*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6002-2rsh_2_03.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00022258913201183688</Mass>
+<CenterOfMass>0.00044795975959898744 0 0</CenterOfMass>
+<Inertia>3.1918085116398638e-08 1.5970295346143281e-08 1.5970295346143281e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6002-2rsh_2_03_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6002-2rsh_2_04" uid="skf_bearing_6002-2rsh_2_04*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6002-2rsh_2_04.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00022258913201183913</Mass>
+<CenterOfMass>0.0085520402404010119 0 0</CenterOfMass>
+<Inertia>3.1918085116398856e-08 1.597029534614339e-08 1.597029534614339e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6002-2rsh_2_04_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6002-2rsh_2_05" uid="skf_bearing_6002-2rsh_2_05*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6002-2rsh_2_05.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00050888252897964535</Mass>
+<CenterOfMass>0.0044999999999999624 4.8674559930107068e-12 -1.1727242745813634e-15</CenterOfMass>
+<Inertia>7.1411550158887658e-08 3.6282751535057469e-08 3.6282751535400617e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6002-2rsh_2_05_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6003-2rsh_2_01" uid="skf_bearing_6003-2rsh_2_01*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6003-2rsh_2_01.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0024843019840196205</Mass>
+<CenterOfMass>0.0049999999999999966 0 0</CenterOfMass>
+<Inertia>6.5877476953095498e-07 3.4843984103383814e-07 3.4843984103383803e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6003-2rsh_2_01_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6003-2rsh_2_02" uid="skf_bearing_6003-2rsh_2_02*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6003-2rsh_2_02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.001614631793497773</Mass>
+<CenterOfMass>0.0050000000000000001 0 0</CenterOfMass>
+<Inertia>1.6258660972851878e-07 9.3350454543535448e-08 9.3350454543535422e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6003-2rsh_2_02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6003-2rsh_2_03" uid="skf_bearing_6003-2rsh_2_03*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6003-2rsh_2_03.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00037173048706797208</Mass>
+<CenterOfMass>0.000608627991748656 0 0</CenterOfMass>
+<Inertia>6.6215228355774505e-08 3.3140197974573779e-08 3.3140197974573786e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6003-2rsh_2_03_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6003-2rsh_2_04" uid="skf_bearing_6003-2rsh_2_04*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6003-2rsh_2_04.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0003717304870679704</Mass>
+<CenterOfMass>0.0093913720082513443 0 0</CenterOfMass>
+<Inertia>6.6215228355774359e-08 3.3140197974573713e-08 3.3140197974573713e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6003-2rsh_2_04_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6003-2rsh_2_05" uid="skf_bearing_6003-2rsh_2_05*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6003-2rsh_2_05.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00056542492730401257</Mass>
+<CenterOfMass>0.0049999999999999784 -1.14354222935059e-15 0</CenterOfMass>
+<Inertia>9.6838986815477344e-08 4.9060578358612597e-08 4.9060578358604576e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6003-2rsh_2_05_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tente agila 50 swivel body" uid="tente agila 50 swivel body*:*Default" version="259">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tente agila 50 swivel body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.9051223882894786e-13</Mass>
+<CenterOfMass>0.0040058478673416246 -0.012848318287944601 -0.00012693653622335206</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="tente agila 50 swivel body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tente agila 50 swivel wheel" uid="tente agila 50 swivel wheel*:*Default" version="255">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tente agila 50 swivel wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.7095224237805194e-13</Mass>
+<CenterOfMass>0.025000000000000001 -0.043999999999999997 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="tente agila 50 swivel wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

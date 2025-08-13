@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="04/29/25||16:53:26" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="diff_body" uid="diff_body" version="164">
+<AssemblyFile name="diff_body.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="diff_side_plate_shaft_right-1" uid="diff_side_plate_shaft_right-1" entityUid="diff_side_plate_shaft_right*:*Default">
+<Transform>
+<Rotation>3.4694469519536146e-15 1.4065325480892964e-16 -1 1.4065325480892974e-16 1 1.4065325480893013e-16 1 -1.4065325480893023e-16 3.4694469519536146e-15</Rotation>
+<Translation>0.084000000000000213 0.10500000000000004 9.8391640180672781e-16</Translation>
+</Transform>
+</Instance>
+<Instance name="diff_shaft_bearing_seat-2" uid="diff_shaft_bearing_seat-2" entityUid="diff_shaft_bearing_seat*:*Default">
+<Transform>
+<Rotation>2.5858786270552e-15 1 2.3206603063315854e-15 0.70710678118654369 -1.8753767307855701e-16 -0.70710678118655168 -0.70710678118655168 3.4694469519536087e-15 -0.70710678118654369</Rotation>
+<Translation>-0.088500000000000217 0.13500000000000001 0.066999999999999935</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6001-2rsh_2-1" uid="skf_bearing_6001-2rsh_2-1" entityUid="skf_bearing_6001-2rsh_2" rigid="true">
+<Transform>
+<Rotation>1 -2.7269629048768193e-15 -2.1531153816434661e-15 -1.8753767307855743e-16 0.57642290291257336 -0.81715153857643941 3.4694469519536106e-15 0.81715153857643941 0.57642290291257336</Rotation>
+<Translation>-0.087000000000000216 0.13500000000000001 0.066999999999999907</Translation>
+</Transform>
+<Instance name="skf_bearing_6001-2rsh_2_02-1" uid="skf_bearing_6001-2rsh_2_02-1" grounded="true" entityUid="skf_bearing_6001-2rsh_2_02*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6001-2rsh_2_01-1" uid="skf_bearing_6001-2rsh_2_01-1" grounded="true" entityUid="skf_bearing_6001-2rsh_2_01*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6001-2rsh_2_03-1" uid="skf_bearing_6001-2rsh_2_03-1" grounded="true" entityUid="skf_bearing_6001-2rsh_2_03*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6001-2rsh_2_04-1" uid="skf_bearing_6001-2rsh_2_04-1" grounded="true" entityUid="skf_bearing_6001-2rsh_2_04*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6001-2rsh_2_05-1" uid="skf_bearing_6001-2rsh_2_05-1" grounded="true" entityUid="skf_bearing_6001-2rsh_2_05*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="diff_side_plate_shaft_left-1" uid="diff_side_plate_shaft_left-1" entityUid="diff_side_plate_shaft_left*:*Default">
+<Transform>
+<Rotation>-3.469446951953615e-15 1.8753767307857459e-16 -1 1.8753767307857444e-16 1 1.8753767307857392e-16 1 -1.8753767307857377e-16 -3.469446951953615e-15</Rotation>
+<Translation>-0.087000000000000022 0.10500000000000005 0</Translation>
+</Transform>
+</Instance>
+<Instance name="diff_shaft_bearing_seat-1" uid="diff_shaft_bearing_seat-1" entityUid="diff_shaft_bearing_seat*:*Default">
+<Transform>
+<Rotation>2.5527263369647392e-15 -1 2.35381259642206e-15 0.70710678118655157 1.4065325480893023e-16 -0.70710678118654358 0.70710678118654358 3.469446951953615e-15 0.70710678118655157</Rotation>
+<Translation>0.088500000000003562 0.13499999999999859 0.067000000000003612</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6001-2rsh_2-2" uid="skf_bearing_6001-2rsh_2-2" entityUid="skf_bearing_6001-2rsh_2" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.079000000000003318 0.13499999999999893 0.067000000000003251</Translation>
+</Transform>
+<Instance name="skf_bearing_6001-2rsh_2_02-1" uid="skf_bearing_6001-2rsh_2_02-1" grounded="true" entityUid="skf_bearing_6001-2rsh_2_02*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6001-2rsh_2_01-1" uid="skf_bearing_6001-2rsh_2_01-1" grounded="true" entityUid="skf_bearing_6001-2rsh_2_01*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6001-2rsh_2_03-1" uid="skf_bearing_6001-2rsh_2_03-1" grounded="true" entityUid="skf_bearing_6001-2rsh_2_03*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6001-2rsh_2_04-1" uid="skf_bearing_6001-2rsh_2_04-1" grounded="true" entityUid="skf_bearing_6001-2rsh_2_04*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="skf_bearing_6001-2rsh_2_05-1" uid="skf_bearing_6001-2rsh_2_05-1" grounded="true" entityUid="skf_bearing_6001-2rsh_2_05*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="BLKS001-diff_back_plate-1" uid="BLKS001-diff_back_plate-1" grounded="true" entityUid="BLKS001-diff_back_plate*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BLKS001-diff_back_plate-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>diff_side_plate_shaft_left-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 1.875376730785737e-16 3.4694469519536146e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BLKS001-diff_back_plate-1</Uid>
+</InstancePath>
+<Position>-0.084000000000000019 0.16200000000000003 -0.0040000000000000001</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>diff_side_plate_shaft_left-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BLKS001-diff_back_plate-1</Uid>
+</InstancePath>
+<Position>-0.087000000000000022 0.16200000000000003 -0.0040000000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>diff_side_plate_shaft_left-1</Uid>
+</InstancePath>
+<Position>0 0.056999999999999967 -0.0030000000000000027</Position>
+<Axis>3.4694469519536075e-15 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BLKS001-diff_back_plate-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>diff_side_plate_shaft_right-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 1.4065325480893028e-16 -3.4694469519536146e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BLKS001-diff_back_plate-1</Uid>
+</InstancePath>
+<Position>0.084000000000000019 0.16200000000000003 -0.0040000000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>diff_side_plate_shaft_right-1</Uid>
+</InstancePath>
+<Position>0 0.056999999999999981 -0.0029999999999999888</Position>
+<Axis>3.4694469519536075e-15 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BLKS001-diff_back_plate-1</Uid>
+</InstancePath>
+<Position>0.084000000000000019 0.16200000000000003 -0.0040000000000000001</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>diff_side_plate_shaft_right-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>diff_side_plate_shaft_right-1</Uid>
+</InstancePath>
+<Position>0.067000000000000004 0.029999999999999985 -0.0030000000000000027</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>diff_shaft_bearing_seat-1</Uid>
+</InstancePath>
+<Position>0 0.0094999999999999946 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>diff_side_plate_shaft_right-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>diff_shaft_bearing_seat-1</Uid>
+</InstancePath>
+<Position>0 0.0015000000000000013 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>diff_side_plate_shaft_right-1</Uid>
+</InstancePath>
+<Position>0.051443650813895875 0.045556349186103948 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>diff_shaft_bearing_seat-1</Uid>
+</InstancePath>
+<Position>0 -0.0014999999999999875 -0.022000000000000013</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>diff_side_plate_shaft_left-1</Uid>
+</InstancePath>
+<Position>0.067000000000000018 0.029999999999999999 -0.0029999999999999888</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>diff_shaft_bearing_seat-2</Uid>
+</InstancePath>
+<Position>0 0.0094999999999999946 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>diff_side_plate_shaft_left-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>diff_shaft_bearing_seat-2</Uid>
+</InstancePath>
+<Position>0 0.0015000000000000013 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>diff_side_plate_shaft_left-1</Uid>
+</InstancePath>
+<Position>0.051443650813895882 0.045556349186103962 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>diff_shaft_bearing_seat-2</Uid>
+</InstancePath>
+<Position>0.02200000000000002 0.0015000000000000013 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>diff_shaft_bearing_seat-2</Uid>
+</InstancePath>
+<Position>0 0.0094999999999999946 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>skf_bearing_6001-2rsh_2-1</Uid>
+<Uid>skf_bearing_6001-2rsh_2_01-1</Uid>
+</InstancePath>
+<Position>0.0040000000000000036 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>diff_shaft_bearing_seat-2</Uid>
+</InstancePath>
+<Position>0 0.0015000000000000013 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>skf_bearing_6001-2rsh_2-1</Uid>
+<Uid>skf_bearing_6001-2rsh_2_01-1</Uid>
+</InstancePath>
+<Position>0 0.013029999999999986 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>diff_shaft_bearing_seat-1</Uid>
+</InstancePath>
+<Position>0 0.0015000000000000013 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>skf_bearing_6001-2rsh_2-2</Uid>
+<Uid>skf_bearing_6001-2rsh_2_01-1</Uid>
+</InstancePath>
+<Position>0.0080000000000000071 0.013030000000000014 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>diff_shaft_bearing_seat-1</Uid>
+</InstancePath>
+<Position>0 0.0094999999999999946 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>skf_bearing_6001-2rsh_2-2</Uid>
+<Uid>skf_bearing_6001-2rsh_2_01-1</Uid>
+</InstancePath>
+<Position>0.0040000000000000036 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="skf_bearing_6001-2rsh_2" uid="skf_bearing_6001-2rsh_2" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="skf_bearing_6001-2rsh_2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="BLKS001-diff_back_plate" uid="BLKS001-diff_back_plate*:*Default" version="1686">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BLKS001-diff_back_plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.44309813626445849</Mass>
+<CenterOfMass>0 0.10376333499659207 0.0034186519382900194</CenterOfMass>
+<Inertia>0.0023409817626323733 0.001577714246023276 0.0026543777367003993 0.00065960646324629926 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="BLKS001-diff_back_plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="diff_shaft_bearing_seat" uid="diff_shaft_bearing_seat*:*Default" version="320">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="diff_shaft_bearing_seat.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.021712240527959902</Mass>
+<CenterOfMass>0 0.0015622084689649227 0</CenterOfMass>
+<Inertia>4.3234053137076665e-06 8.2921917728236661e-06 4.3234053137076673e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="diff_shaft_bearing_seat_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="diff_side_plate_shaft_left" uid="diff_side_plate_shaft_left*:*Default" version="1112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="diff_side_plate_shaft_left.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.040651080540170345</Mass>
+<CenterOfMass>0.03623253974656037 0.029999999999999988 -0.0030741538875157905</CenterOfMass>
+<Inertia>1.3691343476596159e-05 3.2600976262526637e-05 4.4631980251847372e-05 0 -2.2145791019964782e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="diff_side_plate_shaft_left_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="diff_side_plate_shaft_right" uid="diff_side_plate_shaft_right*:*Default" version="1097">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="diff_side_plate_shaft_right.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.040651080540170359</Mass>
+<CenterOfMass>0.036232539746560377 0.029999999999999992 7.4150808304296e-05</CenterOfMass>
+<Inertia>1.3691343870679757e-05 3.2600976656610247e-05 4.4631980251847386e-05 0 2.2145829532602164e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="diff_side_plate_shaft_right_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6001-2rsh_2_01" uid="skf_bearing_6001-2rsh_2_01*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6001-2rsh_2_01.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0012801604281668605</Mass>
+<CenterOfMass>0.0040000000000000018 0 0</CenterOfMass>
+<Inertia>2.1707933498947917e-07 1.1511731775332458e-07 1.1511731775332452e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6001-2rsh_2_01_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6001-2rsh_2_02" uid="skf_bearing_6001-2rsh_2_02*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6001-2rsh_2_02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0006987700878342127</Mass>
+<CenterOfMass>0.004000000000000001 0 0</CenterOfMass>
+<Inertia>3.5811746139135003e-08 2.1345834987254747e-08 2.134583498725475e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6001-2rsh_2_02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6001-2rsh_2_03" uid="skf_bearing_6001-2rsh_2_03*:*Default" version="150">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6001-2rsh_2_03.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0001876687378080661</Mass>
+<CenterOfMass>0.00043096258354262211 0 0</CenterOfMass>
+<Inertia>1.9869013550761457e-08 9.9435992978837999e-09 9.9435992978837966e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6001-2rsh_2_03_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6001-2rsh_2_04" uid="skf_bearing_6001-2rsh_2_04*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6001-2rsh_2_04.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00018766873780806456</Mass>
+<CenterOfMass>0.0075690374164573831 0 0</CenterOfMass>
+<Inertia>1.9869013550761335e-08 9.943599297883737e-09 9.9435992978837321e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6001-2rsh_2_04_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="skf_bearing_6001-2rsh_2_05" uid="skf_bearing_6001-2rsh_2_05*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="skf_bearing_6001-2rsh_2_05.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00045233914050209765</Mass>
+<CenterOfMass>0.0039999999999999879 -1.713090084518965e-15 -5.7663794858719381e-16</CenterOfMass>
+<Inertia>4.6259651964082124e-08 2.3642693942719632e-08 2.3642693942713935e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="skf_bearing_6001-2rsh_2_05_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

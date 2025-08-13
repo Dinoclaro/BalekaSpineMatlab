@@ -1,0 +1,322 @@
+Mass properties of diff_assem_comp
+     Configuration: Default
+     Coordinate system: -- default --
+
+Mass = 2161.46 grams
+
+Volume = 868546.24 cubic millimeters
+
+Surface area = 318546.78  square millimeters
+
+Center of mass: ( millimeters )
+	X = 0.00
+	Y = 54.72
+	Z = 52.05
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = ( 0.00,  0.91, -0.41)   	Px = 5971845.23
+	 Iy = (-1.00,  0.00,  0.00)   	Py = 7705081.81
+	 Iz = ( 0.00,  0.41,  0.91)   	Pz = 9956713.35
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 7705081.81	Lxy = -50.00	Lxz = 73.80
+	Lyx = -50.00	Lyy = 6640682.90	Lyz = -1489256.89
+	Lzx = 73.80	Lzy = -1489256.89	Lzz = 9287875.68
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 20032305.78	Ixy = -484.51	Ixz = -339.54
+	Iyx = -484.51	Iyy = 12496617.41	Iyz = 4666670.93
+	Izx = -339.54	Izy = 4666670.93	Izz = 15759165.20
+
+One or more components have overridden mass properties:
+	motor_assem
+	motor_assem
+
+---------------------
+
+Mass properties of diff_shaft_comp
+     Configuration: Default
+     Coordinate system: -- default --
+
+Mass = 667.89 grams
+
+Volume = 85785.83 cubic millimeters
+
+Surface area = 22944.92  square millimeters
+
+Center of mass: ( millimeters )
+	X = 13.56
+	Y = 0.00
+	Z = 0.00
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = ( 0.00,  1.00,  0.00)   	Px = 375125.31
+	 Iy = (-1.00,  0.00,  0.00)   	Py = 738439.22
+	 Iz = ( 0.00,  0.00,  1.00)   	Pz = 1059794.32
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 738439.22	Lxy = -0.26	Lxz = -0.55
+	Lyx = -0.26	Lyy = 375125.31	Lyz = -0.13
+	Lzx = -0.55	Lzy = -0.13	Lzz = 1059794.32
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 738439.22	Ixy = -0.28	Ixz = -0.32
+	Iyx = -0.28	Iyy = 497934.44	Iyz = -0.13
+	Izx = -0.32	Izy = -0.13	Izz = 1182603.44
+
+--------------
+
+Mass properties of diff_pulley_left_assem
+     Configuration: Default
+     Coordinate system: -- default --
+
+Mass = 204.27 grams
+
+Volume = 110003.41 cubic millimeters
+
+Surface area = 49619.74  square millimeters
+
+Center of mass: ( millimeters )
+	X = 0.00
+	Y = 13.35
+	Z = -4.04
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = ( 0.00, -0.14,  0.99)   	Px = 77743.00
+	 Iy = ( 1.00,  0.00,  0.00)   	Py = 105357.86
+	 Iz = ( 0.00,  0.99,  0.14)   	Pz = 148168.44
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 105357.86	Lxy = 0.00	Lxz = 0.00
+	Lyx = 0.00	Lyy = 146830.59	Lyz = -9613.97
+	Lzx = 0.00	Lzy = -9613.97	Lzz = 79080.85
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 145091.98	Ixy = 0.00	Ixz = 0.00
+	Iyx = 0.00	Iyy = 150164.10	Iyz = -20629.49
+	Izx = 0.00	Izy = -20629.49	Izz = 115481.46
+
+----------------
+
+Mass properties of diff_pulley_right_assem
+     Configuration: Default
+     Coordinate system: -- default --
+
+Mass = 204.27 grams
+
+Volume = 110003.41 cubic millimeters
+
+Surface area = 49619.74  square millimeters
+
+Center of mass: ( millimeters )
+	X = 0.00
+	Y = 13.35
+	Z = -4.04
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = ( 0.00, -0.14,  0.99)   	Px = 77743.00
+	 Iy = ( 1.00,  0.00,  0.00)   	Py = 105357.86
+	 Iz = ( 0.00,  0.99,  0.14)   	Pz = 148168.44
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 105357.86	Lxy = 0.00	Lxz = 0.00
+	Lyx = 0.00	Lyy = 146830.59	Lyz = -9613.97
+	Lzx = 0.00	Lzy = -9613.97	Lzz = 79080.85
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 145091.98	Ixy = 0.00	Ixz = 0.00
+	Iyx = 0.00	Iyy = 150164.10	Iyz = -20629.49
+	Izx = 0.00	Izy = -20629.49	Izz = 115481.46
+
+----------
+
+Mass properties of PT-48T-5M-15W-12B (Diff motor)
+     Configuration: Default
+     Coordinate system: -- default --
+
+Density = 0.00 grams per cubic millimeter
+
+Mass = 85.98 grams
+
+Volume = 84293.62 cubic millimeters
+
+Surface area = 19068.87  square millimeters
+
+Center of mass: ( millimeters )
+	X = 0.00
+	Y = 8.54
+	Z = 0.00
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = ( 0.00,  0.00,  1.00)   	Px = 32607.94
+	 Iy = ( 1.00,  0.00,  0.00)   	Py = 32607.94
+	 Iz = ( 0.00,  1.00,  0.00)   	Pz = 58012.20
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 32607.94	Lxy = 0.00	Lxz = 0.00
+	Lyx = 0.00	Lyy = 58012.20	Lyz = 0.00
+	Lzx = 0.00	Lzy = 0.00	Lzz = 32607.94
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 38873.23	Ixy = 0.00	Ixz = 0.00
+	Iyx = 0.00	Iyy = 58012.20	Iyz = 0.00
+	Izx = 0.00	Izy = 0.00	Izz = 38873.23
+
+----------
+
+Mass properties of heim_rod_assem
+     Configuration: Default
+     Coordinate system: -- default --
+
+Mass = 32.72 grams
+
+Volume = 7259.41 cubic millimeters
+
+Surface area = 5805.88  square millimeters
+
+Center of mass: ( millimeters )
+	X = 0.00
+	Y = 0.00
+	Z = 0.01
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = ( 0.00,  1.00,  0.00)   	Px = 318.96
+	 Iy = ( 0.02,  0.00,  1.00)   	Py = 32892.35
+	 Iz = ( 1.00,  0.00, -0.02)   	Pz = 32952.96
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 32952.94	Lxy = -0.07	Lxz = 1.10
+	Lyx = -0.07	Lyy = 318.96	Lyz = 0.00
+	Lzx = 1.10	Lzy = 0.00	Lzz = 32892.37
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 32952.94	Ixy = -0.07	Ixz = 1.10
+	Iyx = -0.07	Iyy = 318.97	Iyz = 0.00
+	Izx = 1.10	Izy = 0.00	Izz = 32892.37
+
+--------
+
+Mass properties of roll_shaft
+     Configuration: Default
+     Coordinate system: -- default --
+
+Mass = 369.65 grams
+
+Volume = 130628.65 cubic millimeters
+
+Surface area = 41359.45  square millimeters
+
+Center of mass: ( millimeters )
+	X = 0.31
+	Y = 38.52
+	Z = -2.26
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = ( 0.00,  1.00,  0.01)   	Px = 124965.06
+	 Iy = (-0.14, -0.01,  0.99)   	Py = 399768.99
+	 Iz = ( 0.99,  0.00,  0.14)   	Pz = 421951.79
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 421539.97	Lxy = -503.80	Lxz = -2997.78
+	Lyx = -503.80	Lyy = 125016.23	Lyz = 3715.72
+	Lzx = -2997.78	Lzy = 3715.72	Lzz = 400129.63
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 971783.50	Ixy = 3910.63	Ixz = -3256.47
+	Iyx = 3910.63	Iyy = 126934.84	Iyz = -28418.39
+	Izx = -3256.47	Izy = -28418.39	Izz = 948525.63
+
+------
+
+Mass properties of roll_assem_comp
+     Configuration: Default
+     Coordinate system: -- default --
+
+Mass = 1602.24 grams
+
+Volume = 598230.15 cubic millimeters
+
+Surface area = 261770.97  square millimeters
+
+Center of mass: ( millimeters )
+	X = 0.01
+	Y = -60.23
+	Z = 0.30
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = ( 0.00,  1.00, -0.02)   	Px = 2897317.99
+	 Iy = (-1.00,  0.00,  0.00)   	Py = 3241335.42
+	 Iz = ( 0.00,  0.02,  1.00)   	Pz = 4007487.90
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 3241335.46	Lxy = 20.60	Lxz = -179.20
+	Lyx = 20.60	Lyy = 2897624.20	Lyz = -18434.88
+	Lzx = -179.20	Lzy = -18434.88	Lzz = 4007181.65
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 9054416.39	Ixy = -1253.42	Ixz = -172.89
+	Iyx = -1253.42	Iyy = 2897767.19	Iyz = -47237.10
+	Izx = -172.89	Izy = -47237.10	Izz = 9820120.15
+
+One or more components have overridden mass properties:
+	motor_assem
+
+--------------
+
+Mass properties of baleka_spine_frame_assem
+     Configuration: Default
+     Coordinate system: -- default --
+
+Mass = 16394.48 grams
+
+Volume = 2261314.19 cubic millimeters
+
+Surface area = 551733.69  square millimeters
+
+Center of mass: ( millimeters )
+	X = 0.04
+	Y = 16.35
+	Z = 0.00
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = ( 0.00,  0.00,  1.00)   	Px = 192898363.67
+	 Iy = ( 1.00,  0.00,  0.00)   	Py = 202931022.32
+	 Iz = ( 0.00,  1.00,  0.00)   	Pz = 323809006.47
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 202931161.59	Lxy = 129751.35	Lxz = 0.00
+	Lyx = 129751.35	Lyy = 323808867.19	Lyz = 0.00
+	Lzx = 0.00	Lzy = 0.00	Lzz = 192898363.67
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 207315367.59	Ixy = 140379.21	Ixz = 0.00
+	Iyx = 140379.21	Iyy = 323808892.96	Iyz = 0.00
+	Izx = 0.00	Izy = 0.00	Izz = 197282595.43
+

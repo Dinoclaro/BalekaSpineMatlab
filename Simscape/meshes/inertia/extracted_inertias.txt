@@ -1,0 +1,135 @@
+Inertia properties for diff_assem_comp
+
+Mass [kg]:
+2.16146 
+
+Center of Mass [m]:
+[0.00000, 0.05472, 0.05205]  
+
+Moments of Inertia [kg*m²] -> [Ixx Iyy Izz]:
+[7.70508181e-03, 6.64068290e-03, 9.28787568e-03]
+
+Products of Inertia  [kg*m²] -> [Iyz Izx Ixy]:
+[-1.48925689e-03, 7.38000000e-08, -5.00000000e-08]
+
+------------------------------------------------------------
+Inertia properties for diff_shaft_comp
+
+Mass [kg]:
+0.66789 
+
+Center of Mass [m]:
+[0.01356, 0.00000, 0.00000]  
+
+Moments of Inertia [kg*m²] -> [Ixx Iyy Izz]:
+[7.38439220e-04, 3.75125310e-04, 1.05979432e-03]
+
+Products of Inertia  [kg*m²] -> [Iyz Izx Ixy]:
+[-1.30000000e-10, -5.50000000e-10, -2.60000000e-10]
+
+------------------------------------------------------------
+Inertia properties for diff_pulley_left_assem
+
+Mass [kg]:
+0.20427 
+
+Center of Mass [m]:
+[0.00000, 0.01335, -0.00404]  
+
+Moments of Inertia [kg*m²] -> [Ixx Iyy Izz]:
+[1.05357860e-04, 1.46830590e-04, 7.90808500e-05]
+
+Products of Inertia  [kg*m²] -> [Iyz Izx Ixy]:
+[-9.61397000e-06, 0.00000000e+00, 0.00000000e+00]
+
+------------------------------------------------------------
+Inertia properties for diff_pulley_right_assem
+
+Mass [kg]:
+0.20427 
+
+Center of Mass [m]:
+[0.00000, 0.01335, -0.00404]  
+
+Moments of Inertia [kg*m²] -> [Ixx Iyy Izz]:
+[1.05357860e-04, 1.46830590e-04, 7.90808500e-05]
+
+Products of Inertia  [kg*m²] -> [Iyz Izx Ixy]:
+[-9.61397000e-06, 0.00000000e+00, 0.00000000e+00]
+
+------------------------------------------------------------
+Inertia properties for PT-48T-5M-15W-12B (Diff motor)
+
+Mass [kg]:
+0.08598 
+
+Center of Mass [m]:
+[0.00000, 0.00854, 0.00000]  
+
+Moments of Inertia [kg*m²] -> [Ixx Iyy Izz]:
+[3.26079400e-05, 5.80122000e-05, 3.26079400e-05]
+
+Products of Inertia  [kg*m²] -> [Iyz Izx Ixy]:
+[0.00000000e+00, 0.00000000e+00, 0.00000000e+00]
+
+------------------------------------------------------------
+Inertia properties for heim_rod_assem
+
+Mass [kg]:
+0.03272 
+
+Center of Mass [m]:
+[0.00000, 0.00000, 0.00001]  
+
+Moments of Inertia [kg*m²] -> [Ixx Iyy Izz]:
+[3.29529400e-05, 3.18960000e-07, 3.28923700e-05]
+
+Products of Inertia  [kg*m²] -> [Iyz Izx Ixy]:
+[0.00000000e+00, 1.10000000e-09, -7.00000000e-11]
+
+------------------------------------------------------------
+Inertia properties for roll_shaft
+
+Mass [kg]:
+0.36965 
+
+Center of Mass [m]:
+[0.00031, 0.03852, -0.00226]  
+
+Moments of Inertia [kg*m²] -> [Ixx Iyy Izz]:
+[4.21539970e-04, 1.25016230e-04, 4.00129630e-04]
+
+Products of Inertia  [kg*m²] -> [Iyz Izx Ixy]:
+[3.71572000e-06, -2.99778000e-06, -5.03800000e-07]
+
+------------------------------------------------------------
+Inertia properties for roll_assem_comp
+
+Mass [kg]:
+1.60224 
+
+Center of Mass [m]:
+[0.00001, -0.06023, 0.00030]  
+
+Moments of Inertia [kg*m²] -> [Ixx Iyy Izz]:
+[3.24133546e-03, 2.89762420e-03, 4.00718165e-03]
+
+Products of Inertia  [kg*m²] -> [Iyz Izx Ixy]:
+[-1.84348800e-05, -1.79200000e-07, 2.06000000e-08]
+
+------------------------------------------------------------
+Inertia properties for roll_assem_comp
+
+Mass [kg]:
+1.60224 
+
+Center of Mass [m]:
+[0.00001, -0.06023, 0.00030]  
+
+Moments of Inertia [kg*m²] -> [Ixx Iyy Izz]:
+[3.24133546e-03, 2.89762420e-03, 4.00718165e-03]
+
+Products of Inertia  [kg*m²] -> [Iyz Izx Ixy]:
+[-1.84348800e-05, -1.79200000e-07, 2.06000000e-08]
+
+------------------------------------------------------------

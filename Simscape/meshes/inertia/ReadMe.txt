@@ -1,0 +1,1 @@
+Python script extracts inertia properties from "Solidworks Mass Properties" and formats for easy copying into "Simscape Filesolid" inertia fields.
